@@ -7,12 +7,12 @@ anime.timeline({loop: true})
     targets: '.container .letter',
     opacity: [0,1],
     easing: "easeInOutQuad",
-    duration: 20,
+    duration: 2250,
     delay: (el, i) => 150 * (i+1)
   }).add({
     targets: '.container',
     opacity: 0,
     duration: 100,
     easing: "easeOutExpo",
-    delay: 10
+    delay: 1000
   });

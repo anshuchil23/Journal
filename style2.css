@@ -26,8 +26,8 @@ h1{
     flex-direction: row;
     flex-wrap: wrap; 
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: 100px; /*60px*/
-    line-height: 20px; /*13px*/
+    font-size: 170px; /*60px*/
+    line-height: 70px; /*13px*/
     justify-content: space-around;
     background-image: url("self-portrait.png");
     
