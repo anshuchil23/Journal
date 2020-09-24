@@ -26,5 +26,5 @@ h1{
     line-height: 70px; /*13px*/
     justify-content: space-around;
     background-image: url("self-portrait.png");
-    background-repeat: repeat-y;
+/*     background-repeat: repeat-y; */
   }
