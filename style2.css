@@ -1,25 +1,18 @@
 
  body{
-
     margin: 0px;
     padding-left: 30px;
     color:white; 
-   
  }
 h1{
     font-size: 150px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color: black;
     background-color: white;
-    
  }
 
-
-
-
  .container {
-
-    margin:150px;  
+/*     margin:150px;   */
     display: flex;
     flex-direction: row;
     flex-wrap: wrap; 
