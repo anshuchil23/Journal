@@ -1,34 +1,36 @@
 
- body{
-
-    margin: 0px;
-    padding-left: 30px;
-    color:white; 
-   
+body {
+   margin: 0px;
+   padding-left: 30px;
+   color: white;
  }
+
 h1{
+   margin: 400px;
+   font-size: 150px;
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   color: black;
+   background-color: white;
+}
 
-    margin: 400px;
-    font-size: 150px;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    color: black;
-    background-color: white;
-    
- }
+.container {
+   margin:150px;
+   display: flex;
+   flex-direction: row;
+   flex-wrap: wrap;
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   font-size: 170px; /*60px*/
+   line-height: 70px; /*13px*/
+   justify-content: space-around;
+   background-image: url("self-portrait.png");
+}
 
+.letter {
+   opacity: 0;
+   transition: opacity 0.225s;
+   transition-timing-function: ease-in-out;
+}
 
-
-
- .container {
-
-    margin:150px;  
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap; 
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: 170px; /*60px*/
-    line-height: 70px; /*13px*/
-    justify-content: space-around;
-    background-image: url("self-portrait.png");
-    
-  }
+.letter.visible {
+   opacity: 0.75;
+}
