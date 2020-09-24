@@ -14,7 +14,8 @@ h1{
     font-size: 150px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color: black;
-    background-color: white;
+    mix-blend-mode: exclusion;
+/*     background-color: white; */
  }
  .container {
 /*     margin:150px;   */
@@ -26,5 +27,5 @@ h1{
     line-height: 70px; /*13px*/
     justify-content: space-around;
     background-image: url("self-portrait.png");
-/*     background-repeat: repeat-y; */
+    background-size: cover;
   }
