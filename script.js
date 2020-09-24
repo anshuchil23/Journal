@@ -1,5 +1,5 @@
 // Wrap every letter in a span
-console.log('im working now');
+//Your animation is cool but I feel like having it go faster is better to drawing people in
 var textWrapper = document.querySelector('.container');
 textWrapper.innerHTML = textWrapper.textContent.replace(/\S/g, "<span class='letter'>$&</span>");
 
