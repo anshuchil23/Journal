@@ -11,10 +11,11 @@ body{
  }
 h1{
     position: fixed;
-    font-size: 150px;
+    font-size: 100px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color: black;
     mix-blend-mode: exclusion;
+    padding:2%;
 /*     background-color: white; */
  }
  .container {
